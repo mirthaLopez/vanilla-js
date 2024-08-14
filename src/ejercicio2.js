@@ -1,7 +1,12 @@
 class Contador {
-  // Inserte el código aquí
-}
+  valor=0// Inserte el código aquí
 
-// Inserte el código aquí
+  siguiente () {
+    return this.valor++
+  }
+
+};
+
+const instancia=new Contador()// Inserte el código aquí
 
 export { instancia }
