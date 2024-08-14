@@ -1,7 +1,8 @@
 let contador = {
   valor: 0,
   siguiente: function () {
-    // Inserte el código aquí
+    this.contador=contador++;// Inserte el código aquí
+    return contador;
   },
 };
 
